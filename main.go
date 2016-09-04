@@ -7,7 +7,7 @@ import (
     "github.com/mingderwang/go-ext/extpoints"
 )
 
-var subcommands = types.Subcommands
+var subcommands = extpoints.Subcommands
 
 func usage() {
     fmt.Println("Available commands:\n")
